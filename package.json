@@ -1,0 +1,28 @@
+{
+  "name": "harvardcap",
+  "version": "1.0.0",
+  "description": "utils",
+  "main": "src/airtabler/index.js",
+  "repository": "https://github.com/barronwei/harvardcap.git",
+  "author": "Barron Wei <barronwei@outlook.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "cd src/airtabler/ && node index.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e"
+    }
+  },
+  "dependencies": {
+    "airtable": "^0.8.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.0.9",
+    "prettier": "^1.19.1"
+  }
+}

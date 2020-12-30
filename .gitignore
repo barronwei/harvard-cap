@@ -1,0 +1,19 @@
+# airtabler
+
+node_modules/
+.env
+
+# angelsweeper
+
+__pycache__
+
+sweeper.json
+
+# coldemailer
+
+credentials.json
+token.json
+
+coldemailer.json
+
+main

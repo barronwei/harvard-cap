@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cd src/coldemailer/ && go build -o ../../main && cd ../../ && ./main
